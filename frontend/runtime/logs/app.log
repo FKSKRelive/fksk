@@ -1,0 +1,40 @@
+2014-11-25 19:26:22 [127.0.0.1][][18d1lj0r7r9aj6oc3ojqubtcq1][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'Module 'json' already loaded' in Unknown:0
+Stack trace:
+#0 {main}
+2014-11-25 19:26:22 [127.0.0.1][][18d1lj0r7r9aj6oc3ojqubtcq1][info][application] $_COOKIE = [
+    'wp-settings-time-1' => '1416486292'
+    'wp-settings-1' => 'libraryContent=browse'
+    'Drupal_toolbar_collapsed' => '0'
+    'PrestaShop-a30a9934ef476d11b6cc3c983616e364' => 'wOcQ8XBcimE=ftdQqyGiO/I=m5MIft0MMWo=vEzIseQkKPo=ktinzKvo/mM=x3UQRTokva0=nejrTS1lh4I=FD9W2jJHEVc=5U/Iw80yVmQ=gc3yGiJmOls=XuOlYdbvwS0=/8O4K6vG4YY=SLWJpCq7AZ4=6cieHsCMz1w=000104'
+    'PrestaShop-8730dbe8cb8c89b4bd5ad3c237dab30d' => 'io57H3rA/vM=GBuhw2mFBjI=yWtcDoNdAG4=000019'
+    'PHPSESSID' => '18d1lj0r7r9aj6oc3ojqubtcq1'
+    '_csrf' => '7b1602d1651cc2f3cef869bad7a5c97a2bb7366cba7eb16bb582ae955637c65as:32:\"bO-Sp7CIlvtL4OfQN-h8IRuQzx7aQpOw\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/kent/Projects/Web/fksk/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43985'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.5 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/kent/Projects/Web/fksk/frontend/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1416486292; wp-settings-1=libraryContent%3Dbrowse; Drupal.toolbar.collapsed=0; PrestaShop-a30a9934ef476d11b6cc3c983616e364=wOcQ8XBcimE%3DftdQqyGiO%2FI%3Dm5MIft0MMWo%3DvEzIseQkKPo%3DktinzKvo%2FmM%3Dx3UQRTokva0%3DnejrTS1lh4I%3DFD9W2jJHEVc%3D5U%2FIw80yVmQ%3Dgc3yGiJmOls%3DXuOlYdbvwS0%3D%2F8O4K6vG4YY%3DSLWJpCq7AZ4%3D6cieHsCMz1w%3D000104; PrestaShop-8730dbe8cb8c89b4bd5ad3c237dab30d=io57H3rA%2FvM%3DGBuhw2mFBjI%3DyWtcDoNdAG4%3D000019; PHPSESSID=18d1lj0r7r9aj6oc3ojqubtcq1; _csrf=7b1602d1651cc2f3cef869bad7a5c97a2bb7366cba7eb16bb582ae955637c65as%3A32%3A%22bO-Sp7CIlvtL4OfQN-h8IRuQzx7aQpOw%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1416943582.1413
+    'REQUEST_TIME' => 1416943582
+]
