@@ -10,6 +10,7 @@ use frontend\widgets\Alert;
 /* @var $content string */
 
 AppAsset::register($this);
+Yii::$app->language = 'fr-FR';
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -26,10 +27,12 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => Yii::t("app", "app.title", null),
+//                 'brandLabel' => Yii::t('app', 'app.title'),
+				'brandLabel' => Html::img('gfx/logo.svg', array('class' => 'logo')),
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
-                    'class' => 'navbar-inverse navbar-fixed-top',
+                    'class' => 'navbar-default navbar-fixed-top',
+                    'role' => 'navigation'
                 ],
             ]);
             $menuItems = [
